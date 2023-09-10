@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import hypereventImg from "@/public/hyperevent.png";
+import admindashboardsImg from "@/public/admindashboard.png";
+import pokeversehubImg from "@/public/pokeversehub.png";
 
 export const links = [
   {
@@ -35,52 +35,63 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor of natural sciences",
+    location: "Buenos Aires, ARG",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I finished my studies and became interested in programming.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Dec - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Javascript and Python developer",
+    location: "Remote, FreeCodeCamp",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I studied two of my favorite programming languages.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "May - 2023",
+  },
+  {
+    title: "Individual Project",
+    location: "Remote, Soy Henry",
+    description:
+      "I made my first project, PokeVerseHub, with everything I learned during Soy Henry",
+    icon: React.createElement(FaReact),
+    date: "Oct - 2023",
+  },
+  {
+    title: "Final Project",
+    location: "Remote, Soy Henry",
+    description:
+      "I worked for almost a month as a full stack developer with 6 colleagues, learning new technologies and how to work in a software development team",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "HyperEvent",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer with 6 more students on Henry's bootcamp. In this website you will be able to buy and create tickets for your favourite events.",
+    tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Sequelize", "JWT"],
+    imageUrl: hypereventImg,
+    url: 'https://hyperevent-fe.vercel.app'
   },
   {
-    title: "rmtDev",
+    title: "Admin Dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    "This is the admin dashboard for the hyperEvent page, the admin is able to look all the sales and manage users, events, and comments.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma"],
+    imageUrl: admindashboardsImg,
+    url: 'https://hyper-admin-sigma.vercel.app'
   },
   {
-    title: "Word Analytics",
+    title: "PokeVerseHub",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    "This is my first project, where you can search all the existing pokemons, learn their stats, and create new pokemons.",
+      tags: ["React", "SQL", 'Sequelize', "CSS Modules", "Redux"],
+    imageUrl: pokeversehubImg,
+    url: ""
   },
 ] as const;
 
@@ -94,14 +105,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
+  "Prisma",
+  "Sequelize"
 ] as const;
