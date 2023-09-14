@@ -112,5 +112,4 @@ export const skillsData = [
   "Framer Motion",
   "Prisma",
   "Sequelize",
-  "C#"
 ] as const;
