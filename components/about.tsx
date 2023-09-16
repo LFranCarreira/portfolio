@@ -41,7 +41,7 @@ export default function About() {
         out, playing video games, and watching series. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">C# and IA</span>. I'm also
+        <span className="font-medium">C# and AWS</span>. I'm also
         learning how to play the piano.
       </p>
     </motion.section>
