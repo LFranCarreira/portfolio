@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import hypereventImg from "@/public/hyperevent.png";
 import admindashboardsImg from "@/public/admindashboard.png";
 import pokeversehubImg from "@/public/pokeversehub.png";
+import calculatorImg from "@/public/calculator.png";
 
 export const links = [
   {
@@ -85,6 +86,14 @@ export const projectsData = [
     imageUrl: admindashboardsImg,
     url: 'https://hyper-admin-sigma.vercel.app'
   },
+  {     
+    title: "Calculator",
+    description:
+    "This is a Calculator with various functions such as sin, cos, tan, etc.",
+      tags: ["HTML", "CSS", 'JavaScript'],
+    imageUrl: calculatorImg,
+    url: "https://lfrancarreira-calculator.vercel.app/"
+  },  
   {
     title: "PokeVerseHub",
     description:
