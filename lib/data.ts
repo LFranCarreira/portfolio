@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "I made my first project, PokeVerseHub, with everything I learned during Soy Henry",
     icon: React.createElement(FaReact),
-    date: "Oct - 2023",
+    date: "Aug - 2023",
   },
   {
     title: "Final Project",
